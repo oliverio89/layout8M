@@ -1,10 +1,172 @@
-body {
-    margin: 
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
 }
 
 
-p {
+.hero {
+    background: hsl(281, 78%, 35%);
+    display: flex;
     color: white;
-    width: 500px;
-    border: 1px solid black;
+    justify-content: space-around;
+    padding: 5rem;
   }
+
+  .bold {
+    font-weight: bold;
+  }
+  
+
+  .white{
+    color: white
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-left: -32px;
+
+}
+h1{
+    font-size: 4rem;
+}
+
+  .botonBlanco {
+    background: white;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 5%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .botonVacío {
+    color: white;
+    padding: 1rem;
+    border: 0.2rem solid white;
+    border-radius: 5%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .head{
+  width: 40rem;
+  height: 15rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  }
+
+  /* -----------------------------------------------Eventos ------------------------------------------------------------------------------------------ */
+
+
+.event{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+padding-top: 3rem;
+    
+}
+.allCards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.cards {
+    width: 15rem;
+    height: 25rem;
+    padding: 2rem;
+    border: 1px solid grey;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 5px 5px grey;
+
+    
+}
+.picture {
+width: 8rem;
+border-radius: 50%;
+}
+
+.icons {
+    display: flex;
+    width: 1rem;
+}
+.iconosRed {
+width: 1rem;
+}
+
+.profession {
+    color: blue;
+    background: aquamarine;
+    border-radius: 5%;
+    padding: 0.5rem;
+    border-radius: 10%;
+}
+
+
+  /* -----------------------------------------------Apuntate ------------------------------------------------------------------------------------------ */
+
+.apuntate {
+    background: hsl(281, 78%, 35%);
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    padding: 3rem;
+    justify-content: space-evenly;
+    color: white;
+
+}
+
+.botonApuntate {
+    align-content: center;
+    padding: 1.5rem;
+}
+
+
+  /* -----------------------------------------------Salida de las manifestaciones------------------------------------------------------------------------------------------ */
+
+.mani {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+padding-top: 3rem;
+}
+
+.smallCard {
+    width: 25rem;
+    height: 10rem;
+    padding: 2rem;
+    border: 1px solid grey;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.allSmallCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    width: 60rem;
+
+}
