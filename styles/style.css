@@ -168,5 +168,34 @@ padding-top: 3rem;
     flex-wrap: wrap;
     flex: 0 0 50%;
     width: 60rem;
-
 }
+
+  /* -----------------------------------------------Newslatter------------------------------------------------------------------------------------------ */
+
+  .newsletter {
+    background: hsl(281, 78%, 35%);
+    display: flex;
+    justify-content: center;
+  }
+
+  .cardNew{
+background: white;
+padding: 4rem;
+margin: 5rem;
+height: 5rem;
+width: 50rem;
+display: flex;
+border-radius: 5px;
+justify-content: space-around;
+
+  }
+
+  .asterisco{
+    color: red;
+    display: inline;
+  }
+
+  .botonGris{
+background: whitesmoke;
+padding: 1rem;
+  }
